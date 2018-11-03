@@ -14,6 +14,9 @@ public class Turn {
             = new SimpleIntegerProperty();
     private IntegerProperty cows
             = new SimpleIntegerProperty();
+    private IntegerProperty myNum
+            = new SimpleIntegerProperty();
+
 
     public int getTurnNr() {
         return turnNr.get();
@@ -61,5 +64,17 @@ public class Turn {
 
     public void setCows(int cows) {
         this.cows.set(cows);
+    }
+
+    public int getMyNum() {
+        return myNum.get();
+    }
+
+    public IntegerProperty myNumProperty() {
+        return myNum;
+    }
+
+    public void setMyNum(int myNum) {
+        this.myNum.set(myNum);
     }
 }

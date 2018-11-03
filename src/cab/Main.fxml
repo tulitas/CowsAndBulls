@@ -41,6 +41,11 @@
                         <PropertyValueFactory property="cows"/>
                     </cellValueFactory>
                 </TableColumn>
+                <TableColumn text="My Numbers">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="myNum"/>
+                    </cellValueFactory>
+                </TableColumn>
             </columns>
         </TableView>
     </center>
